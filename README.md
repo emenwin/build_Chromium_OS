@@ -421,6 +421,7 @@ upstream  v3.10  v3.14  v3.18  v3.8  v4.14  v4.14-gw  v4.19  v4.19-ht  v4.19-lak
 
 
 Do an incremental build of the kernel:
+
 ```
 (chroot) $ FEATURES="noclean" cros_workon_make --board=${BOARD} --install chromeos-kernel-[x_y]
 
